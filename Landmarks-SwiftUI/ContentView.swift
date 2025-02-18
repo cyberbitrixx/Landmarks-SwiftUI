@@ -20,15 +20,15 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
-    //                .fontWeight(.medium)
+                //                .fontWeight(.medium)
                 HStack {
                     Text("Joshua Tree National Park")
                     Spacer()
                     Text("California")
                 }
                 .font(.subheadline)
-                .font(.subheadline)
-
+                .foregroundStyle(.secondary)
+                
                 Divider()
                 
                 Text("About Turtle Rock")
