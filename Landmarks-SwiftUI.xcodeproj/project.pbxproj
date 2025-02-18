@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		046112432D4DE405008CA929 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046112422D4DE405008CA929 /* CircleImage.swift */; };
+		046112452D530B2A008CA929 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046112442D530B2A008CA929 /* MapView.swift */; };
 		04C4004C2D39210900CFAD40 /* Landmarks_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4004B2D39210900CFAD40 /* Landmarks_SwiftUIApp.swift */; };
 		04C4004E2D39210900CFAD40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4004D2D39210900CFAD40 /* ContentView.swift */; };
 		04C400502D39210D00CFAD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C4004F2D39210D00CFAD40 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		046112422D4DE405008CA929 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		046112442D530B2A008CA929 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04C400482D39210900CFAD40 /* Landmarks-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landmarks-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C4004B2D39210900CFAD40 /* Landmarks_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarks_SwiftUIApp.swift; sourceTree = "<group>"; };
 		04C4004D2D39210900CFAD40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,9 +57,10 @@
 			children = (
 				04C4004B2D39210900CFAD40 /* Landmarks_SwiftUIApp.swift */,
 				04C4004D2D39210900CFAD40 /* ContentView.swift */,
+				046112422D4DE405008CA929 /* CircleImage.swift */,
+				046112442D530B2A008CA929 /* MapView.swift */,
 				04C4004F2D39210D00CFAD40 /* Assets.xcassets */,
 				04C400512D39210D00CFAD40 /* Preview Content */,
-				046112422D4DE405008CA929 /* CircleImage.swift */,
 			);
 			path = "Landmarks-SwiftUI";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C4004E2D39210900CFAD40 /* ContentView.swift in Sources */,
+				046112452D530B2A008CA929 /* MapView.swift in Sources */,
 				04C4004C2D39210900CFAD40 /* Landmarks_SwiftUIApp.swift in Sources */,
 				046112432D4DE405008CA929 /* CircleImage.swift in Sources */,
 			);
